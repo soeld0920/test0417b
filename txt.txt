@@ -40,6 +40,8 @@ git에 버전 관리 파일 생성
   git commit -m "index.html 버전관리"
 로그 확인
   git log
+브런치명 설정
+  git pull origin 브랜치명(main)
 로컬 저장소에 github 저장소 주소 설정
   git remote add orgin git%ithub.com:~~~
 
@@ -50,3 +52,8 @@ git에 버전 관리 파일 생성
 만든 커밋 github 무시
   git push -u origin master
   git push origin master
+이전 연결 github를 사용
+  git add . (재선택)
+  git commit -m "메세지" (커밋 대기)
+  git pull origin main (브런치명 설정)
+  git push -u origin main (push)
